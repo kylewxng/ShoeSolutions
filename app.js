@@ -10,7 +10,7 @@ const server = http.createServer(function(req, res) {
   if (filePath === './') {
     filePath = './home.html';
   }
-
+//wwww
   // Determine the file extension
   const extname = path.extname(filePath);
   let contentType = 'text/html';
