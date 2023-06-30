@@ -1,0 +1,64 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1 {
+    margin: 3rem 0; 
+}
+.row {
+    align-items:stretch !important;
+}
+.navbar {
+    background-color:#161d31 !important;
+    position:sticky !important;
+}
+.nav-link {
+    color:#9a9fad !important;
+}
+li {
+    padding: 0 0.5rem !important;
+}
+.nav-link:hover {
+    text-decoration:underline;
+}
+.navbar-brand {
+    color:white !important;
+    font-family:Poppins;
+    margin-right: 2rem;
+}
+footer {
+    position:absolute;
+    padding:10px;
+    margin-top:auto;
+    text-align:center;
+    width:100%;
+}
+h5 {
+    position: relative;
+}
+.price {
+    position:absolute;
+    right:0;
+    font-size:1rem;
+    font-weight:500;
+}
+#background-img {
+    background: url("https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F01%2Fair-jordan-1-low-og-black-cement-cz0790-001-release-info-0.jpg?w=960&cbr=1&q=90&fit=max");
+    background-size: cover;
+    height:50rem;
+}
+.cover {
+    font-family:'Poppins';
+    font-weight:bold;
+    font-size:3.5rem;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.view-more {
+    width: 9rem !important;
+    margin: 0 auto;
+}
+#bottom {
+    position:absolute;
+    bottom:0;
+}

@@ -1,0 +1,53 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1 {
+    margin: 4rem 0 10rem 0; 
+}
+.row {
+    align-items:stretch !important;
+}
+.navbar {
+    background-color:#161d31 !important;
+    position:sticky !important;
+}
+.nav-link {
+    color:#9a9fad !important;
+}
+li {
+    padding: 0 0.5rem !important;
+}
+.nav-link:hover {
+    text-decoration:underline;
+}
+.navbar-brand {
+    color:white !important;
+    font-family:Poppins;
+    margin-right: 2rem;
+}
+footer {
+    position:absolute;
+    padding:10px;
+    margin-top:auto;
+    text-align:center;
+    width:100%;
+}
+h5 {
+    position: relative;
+}
+.price {
+    position:absolute;
+    right:0;
+    font-size:1rem;
+    font-weight:500;
+}
+.view-more {
+    width: 9rem !important;
+    margin: 0 auto;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.navbar-collapse {
+    z-index:9999 !important;
+}
